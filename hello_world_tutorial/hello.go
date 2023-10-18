@@ -14,7 +14,7 @@ import (
 	"rsc.io/quote"
 )
 
-func testQuote() {
+func QuoteMessage() {
 	fmt.Println("Mensagem Quote: " + quote.Go())
 }
 
@@ -47,5 +47,5 @@ func main() {
 	}
 	fmt.Println("Mensagem aleatória: " + r_msg)
 	fmt.Println("Hello World: Olá mundo! Este é um programa escrito em Golang.")
-	testQuote()
+	QuoteMessage()
 }
