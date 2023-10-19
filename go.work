@@ -3,4 +3,5 @@ go 1.18
 use (
 	./hello_world_tutorial
 	./modules_tutorial
+	./database_tutorial
 )
